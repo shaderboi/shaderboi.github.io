@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<section class="section career-featured pt-0">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="block">
+					<!-- written-content -->
+					<div class="content">
+						<!-- Career Description -->
+						<p>{{ .Content | markdownify }}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+{{ end }}
